@@ -4,17 +4,17 @@ node default {
 
 node 'master.puppet.vm' {
 	include role::master_server
-	file {'/root/love':
+	file {'/root/facter':
 		ensure  => file,
-		content => 'hello',
+		content => '$fqdn',
 		}
 }
 
 node /^web/ {
 	include role::app_server
-	file {'/root/hello':
-		ensure  => file,
-		content => "this is anothere test\n",
+	file {'/root/test':
+		ensure => file,
+		content => 'This is a test',
 		}
 }
 
