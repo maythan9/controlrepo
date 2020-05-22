@@ -4,6 +4,6 @@ mod 'puppetlabs/concat'
 mod 'puppetlabs/translate'
 mod 'samuelson/dockeragent'
 mod 'puppetlabs/docker'
-mod 'puppetlabs/reboot'
-mod 'puppetlabs/apt'
+
+
 
