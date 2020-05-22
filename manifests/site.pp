@@ -1,5 +1,8 @@
 node default {
-
+	file {'root/love':
+		ensure  => file,
+		content => 'hello.'
+		}
   }
 
 node 'master.puppet.vm' {
