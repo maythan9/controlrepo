@@ -4,6 +4,8 @@ mod 'puppetlabs/concat'
 mod 'puppetlabs/translate'
 mod 'samuelson/dockeragent'
 mod 'puppetlabs/docker'
-
-
+mod 'puppetlabs-reboot', '3.0.0'
+mod 'puppetlabs-powershell', '3.0.1'
+mod 'puppetlabs/pwshlib'
+mod 'puppetlabs-apt', '7.4.2'
 
