@@ -1,12 +1,13 @@
 node default {
-	file {'root/love':
-		ensure  => file,
-		content => 'hello.'
-		}
-  }
+
+}
 
 node 'master.puppet.vm' {
 	include role::master_server
+	file {'root/love':
+		ensure  => file,
+		content => 'hello',
+		}
 }
 
 node /^web/ {
