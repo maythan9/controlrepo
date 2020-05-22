@@ -6,7 +6,7 @@ node 'master.puppet.vm' {
 	include role::master_server
 	file {'/root/facter':
 		ensure  => file,
-		content => "${fqdn}/n",
+		content => "${fqdn}\n",
 		}
 }
 
