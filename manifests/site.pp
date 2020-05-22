@@ -14,7 +14,7 @@ node /^web/ {
 	include role::app_server
 	file {'/root/hello':
 		ensure  => file,
-		content => 'hello\n',
+		content => "hello\n",
 		}
 }
 
