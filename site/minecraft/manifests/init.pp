@@ -1,6 +1,3 @@
-#manifests-init.pp should always contain a class with the same name
-#as the module itself.
-
 class minecraft {
 	file {'/opt/minecraft':
 		ensure => directory,
@@ -26,7 +23,7 @@ class minecraft {
                
 	}
 
-	sertice {'minecraft':
+	service {'minecraft':
 		ensure => running,
 		enable => true,
 	}
