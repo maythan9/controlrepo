@@ -23,7 +23,7 @@ class minecraft {
 	file {/'etc/systemd/system/minecraft.service':
 		ensure  => file,
 		source  => 'puppet:///modules/minecraft/minecraft.service',
-                #source of Unit file which is created in github.
+               
 	}
 
 	sertice {'minecraft':
