@@ -26,4 +26,9 @@ class minecraft {
                 #source of Unit file which is created in github.
 	}
 
+	sertice {'minecraft':
+		ensure => running,
+		enable => true,
+	}
+
 }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
