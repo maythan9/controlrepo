@@ -26,6 +26,6 @@ node /^db/ {
 	include role::db_server
 }
 
-node 'may'{
+node 'ratanak-VirtualBox'{
 	include role::may_test
 }
