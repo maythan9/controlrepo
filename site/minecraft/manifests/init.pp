@@ -20,6 +20,8 @@ class minecraft {
 	file {'/etc/systemd/system/minecraft.service':
 		ensure  => file,
 		source  => 'puppet:///modules/minecraft/minecraft.service',
+		#we then create a unit file in site/minecraft/files/minecraft.service
+		#This file contain the Unit code. 
                
 	}
 
