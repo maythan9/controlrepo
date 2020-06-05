@@ -20,6 +20,11 @@ node /^web/ {
 		ensure => file,
 		content => 'This is a test',
 		}
+
+node 'may' {
+	include role::may_test
+
+}
 }
 
 node /^db/ {
