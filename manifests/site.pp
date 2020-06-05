@@ -26,6 +26,6 @@ node /^db/ {
 	include role::db_server
 }
 
-node 'may.hitronhub.home'{
+node 'may'{
 	include role::may_test
 }
