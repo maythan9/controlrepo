@@ -1,1 +1,1 @@
-class profile::test{}
+class profile::maytest{}
