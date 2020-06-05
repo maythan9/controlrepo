@@ -26,6 +26,6 @@ node /^db/ {
 	include role::db_server
 }
 
-node 'may.iowa.uiowa.edu'{
+node 'may.hitronhub.home'{
 	include role::may_test
 }
