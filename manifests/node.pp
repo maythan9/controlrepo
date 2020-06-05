@@ -1,1 +1,0 @@
-node 'may.hitronhub.home'{}
