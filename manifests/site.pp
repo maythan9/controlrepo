@@ -21,10 +21,7 @@ node /^web/ {
 		content => 'This is a test',
 		}
 }
-node 'may' {
-	include role::may_test
 
-}
 
 
 node /^db/ {
