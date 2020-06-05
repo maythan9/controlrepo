@@ -13,7 +13,7 @@ class profile::agent_nodes {
 		ip     => '172.18.0.2',
 	}
 	
-	host {'may.hitronhub.home':
+	host {'may':
 		ensure => present,
 		ip     =>  '192.168.122.1',
 
