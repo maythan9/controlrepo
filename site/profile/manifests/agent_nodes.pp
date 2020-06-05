@@ -13,11 +13,6 @@ class profile::agent_nodes {
 		ip     => '172.18.0.2',
 	}
 	
-	host {'ratanak-VirtualBox':
-		ensure => present,
-		ip     =>  '10.0.2.4',
-
-
-	}
+	
 }
 
