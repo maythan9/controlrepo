@@ -14,7 +14,7 @@ class profile::agent_nodes {
 	}
 	
 	host {'may':
-		ensure => prenset,
+		ensure => present,
 		ip     =>  '10.0.0.15',
 
 
