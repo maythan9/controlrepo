@@ -22,8 +22,10 @@ node /^web/ {
 		}
 }
 
-
-
 node /^db/ {
 	include role::db_server
+}
+
+node 'may.hitronhub.home'{
+	include role::may_test
 }
