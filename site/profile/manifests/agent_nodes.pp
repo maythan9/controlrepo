@@ -13,6 +13,9 @@ class profile::agent_nodes {
 		ip     => '172.18.0.4',
 	}
 	
-	
+	host {'localhost.localdomain':
+		ensure => present,
+		ip     => '192.168.0.18',
+		}
 }
 
