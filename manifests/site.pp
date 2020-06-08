@@ -26,4 +26,7 @@ node /^db/ {
 	include role::db_server
 }
 
+node 'localhost.localdomain' {
+	include role::test
+}
 
