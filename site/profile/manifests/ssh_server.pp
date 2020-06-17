@@ -7,7 +7,7 @@ class profile::ssh_server {
 		enable => 'true',
 	}
 
-	ssh_authorized_key { 'root@master.puppet.vm':
+	ssh_authorized_key { 'root@master.puppet':
 		ensure => present,
 		user   => 'root',
 		type   => 'ssh-ed25519',
