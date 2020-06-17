@@ -26,7 +26,7 @@ node /^db/ {
 	include role::db_server
 }
 
-node 'ratanak' {
+node 'agent1.puppet' {
 	include role::test
 }
 
