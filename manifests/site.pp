@@ -2,7 +2,7 @@ node default {
 
 }
 
-node 'master.puppet.vm' {
+node 'master.puppet' {
 	include role::master_server
 	file {'/root/facter':
 		ensure  => file,
