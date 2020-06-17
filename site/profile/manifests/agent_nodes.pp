@@ -13,9 +13,9 @@ class profile::agent_nodes {
 		ip     => '172.18.0.4',
 	}
 	
-	host {'ratanak':
+	host {'agent1.puppet':
 		ensure => present,
-		ip     => '192.168.0.18',
+		ip     => '192.168.0.24',
 		}
 }
 
